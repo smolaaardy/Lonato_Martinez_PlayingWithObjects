@@ -1,0 +1,28 @@
+<html>
+<body>
+	<script type="text/javascript">
+//Imagine that you are given an array of objects.  For example,
+
+// var users = [{name: "Michael", age:37}, {name: "John", age:30}, {name: "David", age:27}];
+// How would you print/log John's age?
+// How would you print/log the name of the first object?
+// How would you print/log the name and age of each user using a for loop?  Your output should look something like this
+var users = [{name: "Michael", age:37}, {name: "John", age:30}, {name: "David", age:27}]
+var Michael = {first_name: "Michael", age: 37}
+var John = {first_name: "John", age: 30}
+var David = {first_name: "David", age: 27}
+console.log(John.age);
+console.log(users[0].name);
+function user(arr){
+	for(var i = 0; i < arr.length; i++) {
+		console.log(arr[i].name, "-", arr[i].age);
+	}
+return arr; 
+}
+user(users);
+	</script>
+}
+}
+}
+</body>
+</html>
